@@ -1,0 +1,28 @@
+<Project>
+<Target Name="GetBuildVersion">
+  <PropertyGroup>
+    <BuildVersion Condition="'$(BuildVersion)' == ''">1.1.0.34611</BuildVersion>
+    <AssemblyInformationalVersion Condition="'$(AssemblyInformationalVersion)' == ''">1.1.0+3387fd57b2</AssemblyInformationalVersion>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.1.0.34611</AssemblyFileVersion>
+    <FileVersion Condition="'$(FileVersion)' == ''">1.1.0.34611</FileVersion>
+    <BuildVersionSimple Condition="'$(BuildVersionSimple)' == ''">1.1.0</BuildVersionSimple>
+    <PrereleaseVersion Condition="'$(PrereleaseVersion)' == ''"></PrereleaseVersion>
+    <MajorMinorVersion Condition="'$(MajorMinorVersion)' == ''">1.1</MajorMinorVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.1.0.34611</AssemblyVersion>
+    <GitCommitId Condition="'$(GitCommitId)' == ''">3387fd57b2dda5964972ca6d6b58a74a8172cfc2</GitCommitId>
+    <GitCommitIdShort Condition="'$(GitCommitIdShort)' == ''">3387fd57b2</GitCommitIdShort>
+    <GitCommitDateTicks Condition="'$(GitCommitDateTicks)' == ''"></GitCommitDateTicks>
+    <GitVersionHeight Condition="'$(GitVersionHeight)' == ''">0</GitVersionHeight>
+    <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+    <BuildVersionNumberComponent Condition="'$(BuildVersionNumberComponent)' == ''">0</BuildVersionNumberComponent>
+    <PublicRelease Condition="'$(PublicRelease)' == ''">False</PublicRelease>
+    <CloudBuildNumber Condition="'$(CloudBuildNumber)' == ''">1.1.0+3387fd57b2</CloudBuildNumber>
+    <SemVerBuildSuffix Condition="'$(SemVerBuildSuffix)' == ''">+3387fd57b2</SemVerBuildSuffix>
+    <NuGetPackageVersion Condition="'$(NuGetPackageVersion)' == ''">1.1.0-g3387fd57b2</NuGetPackageVersion>
+    <ChocolateyPackageVersion Condition="'$(ChocolateyPackageVersion)' == ''">1.1.0-g3387fd57b2</ChocolateyPackageVersion>
+    <Version Condition="'$(Version)' == ''">1.1.0-g3387fd57b2</Version>
+    <PackageVersion Condition="'$(PackageVersion)' == ''">1.1.0-g3387fd57b2</PackageVersion>
+    <NPMPackageVersion Condition="'$(NPMPackageVersion)' == ''">1.1.0-g3387fd57b2</NPMPackageVersion>
+  </PropertyGroup>
+</Target>
+</Project>
